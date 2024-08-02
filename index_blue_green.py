@@ -355,7 +355,7 @@ def main():
         print(f"Error: Failed to create new index {new_index}")
 
 # Schedule the main function to run every 40 minutes
-schedule.every(15).minutes.do(main)
+schedule.every(20).minutes.do(main)
 
 if __name__ == "__main__":
     main()  # Run immediately on script start
